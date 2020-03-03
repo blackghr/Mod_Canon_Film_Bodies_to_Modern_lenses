@@ -1,12 +1,12 @@
 
 PROGRAMMER ?= usbtiny
 
-all: sigmafix.hex
+all: old_canon_aperture_fix.hex
 
-sigmafix.hex: sigmafix.asm
-	avra -fI -l sigmafix.lst -o $@ $<
+old_canon_aperture_fix.hex: old_canon_aperture_fix.asm
+	avra -fI -l old_canon_aperture_fix.lst -o $@ $<
 
-flash: sigmafix.hex
+flash: old_canon_aperture_fix.hex
 	avrdude -p attiny13 -c $(PROGRAMMER) -U flash:w:$< \
 		-U lfuse:w:0x72:m \
 		-U hfuse:w:0xfb:m
