@@ -1,4 +1,4 @@
-; Sigma EF protocol compatibility fix
+; Canon EF protocol compatibility fix
 ;
 ; Copyright 2018 Hector Martin "marcan" <marcan@marcan.st>
 ;
