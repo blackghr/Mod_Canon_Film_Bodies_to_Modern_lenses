@@ -132,7 +132,7 @@ waitcmd:
     ; Aperture command, stomp on last bit!
     ; Prepare DDRB value
     in r18, DDRB
-    sbr r18, (1<<DCL)
+    cbr r18, (1<<DCL)
     ; Wait for LCLK falling edge (drive)
     sbic PINB, LCLK
     rjmp PC-1
