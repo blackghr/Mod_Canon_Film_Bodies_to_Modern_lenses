@@ -1,4 +1,5 @@
 让佳能旧的EOS胶卷机身，兼容新款数码副厂镜头（如永诺35F2）
+参考指令表https://blog.csdn.net/hu5566798/article/details/103187033
 ## Installation
 
 To use it, you need to cut the DCL line from the camera to the lens and insert
